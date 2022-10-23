@@ -117,4 +117,4 @@ trainer = Trainer(
 # access the latest state of the art techniques
 trainer = Trainer(callbacks=[StochasticWeightAveraging(...)])
 ```
-
+- ただし現在GPUに搭載しているCUDAバージョンの関係で、DeepSpeedは上の通りには使え無さそう。
